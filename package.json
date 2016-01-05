@@ -1,0 +1,24 @@
+{
+  "name": "greetassignment",
+  "version": "1.0.0",
+  "description": "say hello to the user",
+  "main": "greet.js",
+  "scripts": {
+    "start": "nodemon greet.js",
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max33nau/testModularPatterns.git"
+  },
+  "author": "Max Jacobsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max33nau/testModularPatterns/issues"
+  },
+  "homepage": "https://github.com/max33nau/testModularPatterns#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1"
+  }
+}
