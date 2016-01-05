@@ -1,6 +1,10 @@
 var greeting = {
   sayHello: function(name) {
-    return console.log('hello ' + name );
+    if (name) {
+      return console.log('hello ' + name);
+    } else {
+      return console.log('a valid name was not entered');
+    }
   }
 }
 
