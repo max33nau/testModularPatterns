@@ -1,3 +1,4 @@
+"use strict";
 var greeting = require('./name.js');
 
 var personName = process.argv[2];
