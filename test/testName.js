@@ -1,7 +1,7 @@
+"use strict";
 var assert = require('assert');
 var spawnSync = require('child_process').spawnSync;
-var greeting = require('./name');
-var should = require('chai').should();
+require('chai').should();
 
 describe('test to check if the arguments are being processed', function(){
   it('should pass a argument on the command line', function(){
@@ -15,4 +15,4 @@ describe('test to check if the arguments are being processed', function(){
     var notNumber = isNaN(greetString.slice(0,1));
     notNumber.should.equal(true);
   });
-})
+});
